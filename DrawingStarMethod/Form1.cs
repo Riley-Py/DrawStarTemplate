@@ -29,6 +29,21 @@ namespace DrawingStarMethod
             
             Graphics g = this.CreateGraphics(); //for part 4 this gets moved to the custom methods.
             Pen blackPen = new Pen(Color.Black);
+
+            //Starting from left point going counter-clockwise
+            PointF point1 = new Point(0, 54);
+            PointF point2 = new Point(32, 78);
+            PointF point3 = new Point(20, 116);
+            PointF point4 = new Point(51, 95);
+            PointF point5 = new Point(85, 116);
+            PointF point6 = new Point(74, 78);
+            PointF point7 = new Point(107, 54);
+            PointF point8 = new Point(65, 53);
+            PointF point9 = new Point(50, 18);
+            PointF point10 = new Point(40, 53);
+
+            PointF[] star = {point1, point2, point3, point4, point5, point6, point7, point8, point9, point10};
+
             
         }
 
@@ -39,6 +54,9 @@ namespace DrawingStarMethod
 
         public void DrawStar(Pen starPen, float x, float y, float pixels)
         {
+            Graphics g = this.CreateGraphics();
+            Pen drawPen = new Pen()
+            g.DrawPolygon()
 
 
         }
